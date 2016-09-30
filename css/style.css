@@ -1,0 +1,32 @@
+.left {
+  float: left;
+}
+
+.visible {
+  opacity:0;
+  
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  line-height: 0;         /* ensure no space between bottom */
+ 
+}
+
+img {
+	position: relative; 
+	z-index: -1;    
+   width:500px;
+  display: inherit;
+}
+
+.vignette { 
+	-webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+	-moz-box-shadow:    inset 0px 0px 85px rgba(0,0,0,0.4);
+	box-shadow:         inset 0px 0px 85px rgba(0,0,0,0.4);
+	
+		
+	display: inline-block;  /* don't go wider than image */
+}
